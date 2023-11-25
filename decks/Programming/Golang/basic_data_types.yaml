@@ -1,0 +1,34 @@
+deck: Programming::Golang::BasicDataTypes
+tags: ["golang", "go", "basic data types"]
+cards:
+  - front: What are the four categories for type in Go?
+    back: basic, aggregate, reference and interface
+
+  - front: Enumerate the basic types in Go
+    back: numbers, strings and booleans
+
+  - front: Enumerate the aggregate types in Go
+    back: arrays and structs
+
+  - front: Enumerate reference types in Go
+    back: Pointers, Maps, functions and channels
+
+  - front: Enumerate the available integer sizes in Go
+    back: >- 
+      There are four distinct sizes for signed integers in Go:
+          8, 16, 32 and 64 bits
+       Represented by the types int8, int16, int32 and int64
+       and their corresponding unsigned versions: uint8, uint16, uint32 and uint64
+
+  - front: What are the natural types for integers in Go?
+    back: >-
+      The natural types for integers in Go are int and uint. They are the
+       most efficient size for signed and unsigned integers on a particular platform.
+
+       Both these types have the same size, either 32 or 64 bits, but one must not make 
+       assumptions about which. They are compiler dependant
+
+  - front: Explain the rune type in Go
+    back: >- 
+     The type rune is a synonym for int32 and represents a Unicode [code point](https://en.wikipedia.org/wiki/Code_point)
+     The two types can be used interchangeably

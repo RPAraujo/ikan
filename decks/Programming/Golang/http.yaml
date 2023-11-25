@@ -1,0 +1,11 @@
+deck: Programming::Golang::HTTP
+tags: ["golang", "go", "HTTP"]
+cards:
+  - front: How do you add a Handler to and HTTP server in Go?
+    back: >-
+      http.HandleFunc("/", handleFunction)
+      
+      The handleFunction must have the following signature:
+      func ProductsHandler(w http.ResponseWriter, r *http.Request) {...}
+
+      And according to the http method in the request perform the required logic
